@@ -1,0 +1,12 @@
+#!/bin/bash
+
+echo hello world # 주석 달기
+echo "$#" (o)
+echo '$#' (모든 기능 삭제되므로 x)
+
+name="$1"
+echo $name $2 $3
+
+echo $*
+
+## $
